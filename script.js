@@ -7,13 +7,12 @@ let compare = function (a, b){
         console.log(a + ' < ' + b);
         return;
     }
-    if (a == b) {
-        console.log(a + ' == ' + b);
+    if (a === b) {
+        console.log(a + ' === ' + b);
         return;
     }
-    if (a
-        === b) {
-        console.log(a + ' === ' + b);
+    if (a == b) {
+        console.log(a + ' == ' + b);
         return;
     }
 }
